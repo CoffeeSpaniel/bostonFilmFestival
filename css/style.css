@@ -1,0 +1,180 @@
+body {
+  background-color: rgb(114, 102, 190);
+}
+
+.vertical-center {
+  text-align: center;
+}
+
+p {
+  color: navy;
+} 
+
+.btn-primary a {
+  color: black;
+}
+/* MAIN IMAGE  */
+#posterDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#posterBorder {
+  border-style: inset;
+}
+
+.lobster {
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 5.5em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px lightblue;
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px lightblue;
+}
+#posterDiv {
+  padding: 0px;
+}
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 992px) {
+  #imgWidthContainer {
+    max-width: 75%;
+  }
+} /* end of 992min media query*/
+
+@media screen and (max-width: 768px) {
+  .lobster {
+    font-size: 3.6em;
+  }
+
+  .cinzel {
+    font-size: 3em;
+  }
+} /* end of 768max media query */
+
+@media screen and (max-width: 550px) {
+  .lobster {
+    font-size: 3em;
+  }
+
+  .cinzel {
+    font-size: 2.4em;
+  }
+} /* end of 550max media query*/
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .card-body {
+    padding: 7px;
+  }
+}
+
+/* MOVIE CARDS */
+
+.card {
+  margin: 20px;
+}
+
+.card-img-top {
+  height: auto;
+  max-width: 100%;
+  border-style: inset;
+  margin-top: 10px;
+}
+
+.card-text {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+}
+
+.container {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+/* CALL TO ACTION */
+
+#jumboFormButton {
+  margin-top: 20px;
+  text-align: center;
+}
+/*LINKS*/
+#links {
+  justify-content: center;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+}
+a:visited {
+  color: whitesmoke;
+}
+
+/* FORM */
+
+form {
+  padding: 10px;
+}
+
+/* BOTTOM OF PAGE */
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  justify-content: center;
+}
+
+#footer {
+  display: inline-block;
+  text-align: center;
+}
+
+#information {
+  justify-content: center;
+}
+
+#news {
+  background-color: #abebd2;
+}
+
+#announcements {
+  background-color: #89c6b3;
+}
+
+/* SCROLLING RETURN BUTTON */
+
+.feedback {
+  background-color: #343a40e7;
+  color: white;
+  border-radius: 2px;
+  border-color: whitesmoke;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 6px;
+  z-index: 1000;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+/* END OF CSS */
